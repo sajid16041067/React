@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  background: #673AB7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: justify !important;
+}
+
+.blog-form, .container-blog-list, .container-blog{
+
+background-color: #fff;
+border-radius: 10px;
+}
+
+.title{
+  color: #fff;
+}
+
+.container-not-found{
+  height: 80vh;
+  color: white;
+}
+
+.header-main{
+  /* height: 50px; */
+  background-color: burlywood;
+
+}
+
+.img-logo{
+  height: 60px;
+}
+
+.header-logo-text{
+  font-weight: 400;
+  font-size: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:brown;
+}
+
+
+.header-main{
+  box-shadow: rgba(64, 64, 64, 0.19) 0px 10px 20px, rgba(33, 33, 33, 0.23) 0px 6px 6px;
+}
